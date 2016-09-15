@@ -29,7 +29,7 @@ catch(Exception $e) {
 				$stmt = $db->prepare("SELECT * FROM gebruikers WHERE naam=:username LIMIT 1");
 				$stmt->execute(array(':username' => $username));
 				$passhash = $stmt->fetch(PDO::FETCH_ASSOC);
-				$result2 = $hash->verify_password($pass,$passhash['password']);				
+				$result2 = $hash->verify_password($pass,$passhash['wachtwoord']);				
 		}
 	catch(Exception $e) {
     echo '<h2><font color=red>';
@@ -54,8 +54,8 @@ catch(Exception $e) {
 	}
 	$_SESSION['loggedin'] = 1;
 	$_SESSION['id'] = $result2['id'];
-	$_SESSION['naam'] = $result2['name'];
-	$_SESSION['hash'] = $passhash['password'];
+	$_SESSION['naam'] = $result2['naam'];
+	$_SESSION['hash'] = $passhash['wachtwoord'];
 	
 	if ($result2['rechten'] == '3')
 	{
