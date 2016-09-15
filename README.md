@@ -31,7 +31,7 @@ Aleen waneer ingelogt
 1 HoofdCategory
  * Sub Category
   * Pagina -> weergave in midden 
-2 HoofdCategory
+2  HoofdCategory
  * Sub Category
   * Pagina
   * Pagina
