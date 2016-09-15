@@ -12,26 +12,20 @@ wachtwoord : pass
 md5 = md5(user-pass-user);
 
 #RoadMap
-*volledig prive
-*Sidebar voor weergave folders
-*simpel admin
+.volledig prive
+.Sidebar voor weergave folders
+.simpel admin
 
 #BaseVieuw Sidebar
 Aleen waneer ingelogt
-|
--> ##HoofdCategory
- |
- -> #Sub Category
-  |
-  -> Pagina -> weergave in midden
-|
--> ##HoofdCategory
-  |
-  -> #Sub Category
-    |
-	->Pagina
-	|
-	->Pagina
+ 
+* ##HoofdCategory
+.* #Sub Category
+..* Pagina -> weergave in midden
+* ##HoofdCategory
+.* #Sub Category
+..* Pagina
+..* Pagina
 
 Zoekfunctie in header
 login/logout en admin menu in header
@@ -44,12 +38,21 @@ Laatst gewijzigt
 
 #Database opbouw
 
-##Gebruikers
+##gebruikers
 | id | gebruiker | wachtwoord | groep |
 |----|-----------|------------|-------|
 | 1	 |	 Admin	 | 	MD5Hash	  |   1	  |
+| 15 | 	 User	 |  MD5Hash   |	  2	  |
+##hc
+| id |		naam	 |
+|----|---------------|
+| 2	 | HoofdCategory |
+##shc
+| id | hc | naam |
+|----|----|------|
+| 3	 | 2  | Sub	 |
+##post
+| id | shc | naam | 	info   | cg | cts | eg | ets |
+|----|-----|------|------------|----|-----|----|-----|
+| 4	 |	3  | post | hello world| 1  |12345| 15 |12356|
 
-Gebruikers -> id - gebruiker - wachtwoord - groep
-hc -> id - naam
-shc -> id - hc - naam
-post -> id - shc - naam - info - cg - cts- eg - ets
