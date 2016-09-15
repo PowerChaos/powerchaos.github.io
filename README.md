@@ -12,7 +12,6 @@ wachtwoord : pass
 md5 = md5(user-pass-user);
 
 #RoadMap
---
 *volledig prive
 *Sidebar voor weergave folders
 *simpel admin
@@ -44,7 +43,6 @@ aangemaakt
 Laatst gewijzigt
 
 #Database opbouw
---
 Gebruikers -> id - gebruiker - wachtwoord - groep
 hc -> id - naam
 shc -> id - hc - naam
