@@ -16,8 +16,11 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<script src="//<?php echo $_SERVER['SERVER_NAME']?>/template/boot/js/jquery.ui.shake.js"></script>
 <!-- bootstrap -->
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Tree -->
+	<link href="//<?php echo $_SERVER['SERVER_NAME']?>/template/boot/css/tree.css" rel="stylesheet" />
+	<script type="text/javascript" src="//<?php echo $_SERVER['SERVER_NAME']?>/template/boot/js/tree.js"></script>
 <!-- moment -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.js"></script>
 <!-- Fonts -->
@@ -29,10 +32,6 @@
     <link rel="stylesheet" href="//glyphsearch.com/bower_components/octicons/octicons/octicons.css">
 <!-- end Fonts -->
 
-<!-- Tree -->
-<link href="//<?php echo $_SERVER['SERVER_NAME']?>/template/boot/css/tree.css" rel="stylesheet" />
-<script type="text/javascript" src="//<?php echo $_SERVER['SERVER_NAME']?>/template/boot/js/tree.js"></script>
-
 <!-- required plugins -->
 <!--[if IE]><script type="text/javascript" src="scripts/jquery.bgiframe.js"></script><![endif]-->
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -41,7 +40,6 @@
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-
 <body>
 
     <div id="wrapper" class='toggled'>

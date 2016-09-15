@@ -10,7 +10,7 @@ if (u())
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="../home">Manu Projects</a>
+      <a class="navbar-brand" href="../home">Knowledge Base</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
 		<div class="col-sm-3 col-md-3">
@@ -64,38 +64,39 @@ if (u())
       </ul>
     </div>
   </div>
-</nav>
-	<!-- Dynamic SiteBar -->
-<divdiv class="navbar navbar-inverse navbar-fixed-left">
+ 	<!-- Dynamic SiteBar -->
+<div class="navbar-fixed-left">
 
 	<ul id="tree1">
 	<!-- HoofdCategory -->
-		<li><a href="#">TECH</a>
+		<li><a href="#">HoofdCategory</a>
 	<!-- HoofdCategory -->	
 			<ul>
 	<!-- SubCategory -->		
-				<li>Company Maintenance</li>
-				<li>Employees
+				<li>SubCategory</li>
+				<li>SubCategory
 	<!-- SubCategory -->			
 					<ul>
 	<!--Posts -->				
-								<li>Report1</li>
-								<li>Report2</li>
-								<li>Report3</li>
+								<li>Post</li>
+								<li>Post</li>
+								<li>Post</li>
 	<!--Posts -->							
 							</ul>
 						</li>
 	<!-- SubCategory -->					
-				<li>Human Resources</li>
+				<li>SubCategory</li>
 	<!-- SubCategory -->			
 			</ul>
 		</li>
 	<!-- HoofdCategory -->	
-		<li>XRP</li>
+		<li>HoofdCategory</li>
 	<!-- HoofdCategory -->	
 	</ul>			
 </div>
-	<!-- Dynamic SiteBar -->
+	<!-- Dynamic SiteBar --> 
+</nav>
+	
 <?php
 }
 ?>
