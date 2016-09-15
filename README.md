@@ -15,18 +15,6 @@ md5 = md5(user-pass-user);
 + volledig prive
 + Sidebar voor weergave folders
 + simpel admin
-
-#BaseVieuw Sidebar
-Aleen waneer ingelogt
- 
-1 ##HoofdCategory
- * ###Sub Category
-  * Pagina -> weergave in midden
-2 ##HoofdCategory
- * ###Sub Category
-  * Pagina
-  * Pagina
-
 + Zoekfunctie in header
 + login/logout
 + admin menu in header
@@ -36,6 +24,19 @@ Aleen waneer ingelogt
 + post editor
 + aangemaakt
 + Laatst gewijzigt
+
+#BaseVieuw Sidebar
+Aleen waneer ingelogt
+ 
+1 HoofdCategory
+ * Sub Category
+  * Pagina -> weergave in midden 
+2 HoofdCategory
+ * Sub Category
+  * Pagina
+  * Pagina
+ 
+
 
 #Database opbouw
 
