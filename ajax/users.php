@@ -212,4 +212,5 @@ elseif ($_POST['groep'] == "wachtwoord")
 <br>
 <?php
 }
+/* CopyRight PowerChaos 2016 */
 ?>

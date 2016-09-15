@@ -94,4 +94,5 @@ else
  {
 	 echo "geen post ?";
  }
+ /* CopyRight PowerChaos 2016 */
  ?>
