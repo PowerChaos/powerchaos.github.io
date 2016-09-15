@@ -20,7 +20,7 @@ wachtwoord : 123456
 + login/logout
 + admin menu in header
 
-+ 3 rechten , admin (3) staff (2) en gebruiker (1)
++ 4 rechten , admin (3) staff (2) gebruiker en Verbannen (b)
 + WYSIWIG editor
 + post editor
 + aangemaakt
