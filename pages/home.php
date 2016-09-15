@@ -2,7 +2,7 @@
 if (!u()){
 ?>
 <!-- Login -->
-<script src="//<?php echo $_SERVER['SERVER_NAME']}?>/template/boot/js/login.js"></script>
+<script src="//<?php echo $_SERVER['SERVER_NAME']?>/template/boot/js/login.js"></script>
 <!-- Validate -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
 <link rel="stylesheet" href="//<?php echo $_SERVER['SERVER_NAME']?>/template/boot/css/login.css">
