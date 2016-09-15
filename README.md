@@ -19,15 +19,15 @@ md5 = md5(user-pass-user);
 #BaseVieuw Sidebar
 Aleen waneer ingelogt
 |
-->##HoofdCategory
+-> ##HoofdCategory
  |
- ->#Sub Category
+ -> #Sub Category
   |
   -> Pagina -> weergave in midden
 |
 -> ##HoofdCategory
   |
-  ->#Sub Category
+  -> #Sub Category
     |
 	->Pagina
 	|
