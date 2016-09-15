@@ -15,9 +15,10 @@ gebruiker : user
 
 wachtwoord : pass 
 
-md5 = ```php
- md5(user-pass-user);
- ``` 
+md5 = 
+```php
+md5(user-pass-user);
+```
 
 #RoadMap
 + volledig prive
