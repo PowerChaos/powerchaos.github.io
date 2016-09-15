@@ -7,17 +7,10 @@ instalatie is gemakkelijk
 
 execute de SQL script en je kan beginnen 
 
-maak een gebruiker aan in database , Wachtwoorden zijn MD5 
+gebruiker : admin 
 
-voorbeeld wachtwoord generatie: 
+wachtwoord : 123456
 
-gebruiker : user 
-
-wachtwoord : pass 
-
-```php
-$pass = md5($user."-".$pass."-".$user);
-```
 
 #RoadMap
 + volledig prive
@@ -27,7 +20,7 @@ $pass = md5($user."-".$pass."-".$user);
 + login/logout
 + admin menu in header
 
-+ 2 groepen , admin en geen admin
++ 3 rechten , admin (3) staff (2) en gebruiker (1)
 + WYSIWIG editor
 + post editor
 + aangemaakt
@@ -51,10 +44,10 @@ Aleen waneer ingelogt
 #Database opbouw
 
 ##gebruikers
-| id | gebruiker | wachtwoord | groep |
-|----|-----------|------------|-------|
-| 1	 |	 Admin	 | 	MD5Hash	  |   1	  |
-| 15 | 	 User	 |  MD5Hash   |	  2	  |
+| id |   naam 	 | wachtwoord | rechten |
+|----|-----------|------------|---------|
+| 1	 |	 Admin	 | 	  SHA1	  |    3  	|
+| 15 | 	 User	 |    SHA1	  |	   1  	|
 ##hc
 | id |		naam	 |
 |----|---------------|
@@ -64,7 +57,7 @@ Aleen waneer ingelogt
 |----|----|------|
 | 3	 | 2  | Sub	 |
 ##post
-| id | shc | naam | 	info   | cg | cts | eg | ets |
+| id | shc | naam | 	info   | cu | cts | eu | ets |
 |----|-----|------|------------|----|-----|----|-----|
 | 4	 |	3  | post | hello world| 1  |12345| 15 |12356|
 
