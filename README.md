@@ -15,7 +15,9 @@ gebruiker : user
 
 wachtwoord : pass 
 
-md5 = ```php md5(user-pass-user);``` 
+md5 = ```php
+ md5(user-pass-user);
+ ``` 
 
 #RoadMap
 + volledig prive
@@ -34,12 +36,12 @@ md5 = ```php md5(user-pass-user);```
 #BaseVieuw Sidebar
 Aleen waneer ingelogt
  
-##HoofdCategory
+###HoofdCategory
  * Sub Category
   * Pagina -> weergave in midden
 
   
-##HoofdCategory
+###HoofdCategory
  * Sub Category
   * Pagina
   * Pagina
