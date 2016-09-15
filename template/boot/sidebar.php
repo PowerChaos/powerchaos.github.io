@@ -13,16 +13,6 @@ if (u())
       <a class="navbar-brand" href="../home">Manu Projects</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-			<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#">uren
-			<span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<li><a href="../registreer">Registreer</a></li>
-					<li><a href="../overzicht">Overzicht</a></li>						
-				</ul>
-			</li>
-      </ul>
 		<div class="col-sm-3 col-md-3">
 			<form class="navbar-form" role="search">
 				<div class="input-group">
