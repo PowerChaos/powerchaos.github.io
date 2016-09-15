@@ -44,9 +44,10 @@ Laatst gewijzigt
 
 #Database opbouw
 
-| Gebruikers|
-| ------------- |:-------------:| -----:| -----:|
+##Gebruikers
 | id | gebruiker | wachtwoord | groep |
+|----|-----------|------------|-------|
+| 1	 |	 Admin	 | 	MD5Hash	  |   1	  |
 
 Gebruikers -> id - gebruiker - wachtwoord - groep
 hc -> id - naam
