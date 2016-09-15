@@ -30,7 +30,7 @@ Aleen waneer ingelogt
  
 ##HoofdCategory
  * Sub Category
-  * Pagina -> weergave in midden
+  * Pagina -> weergave in midden 
 ##HoofdCategory
  * Sub Category
   * Pagina
