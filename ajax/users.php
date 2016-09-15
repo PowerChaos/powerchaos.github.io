@@ -147,13 +147,13 @@ $account = $stmt->fetch(PDO::FETCH_ASSOC);
 <table border=1 class="table table-striped table-bordered table-hover">
 <thead>
 <tr>
-	<th>Pas Naam aan voor <?php echo $account['name'];?></th>
+	<th>Pas Naam aan voor <?php echo $account['naam'];?></th>
 	</tr>
 <thead>
 <tbody>
 <tr>						
 	<td>
-<input type="text" name="naam" value='<?php echo $account['name'];?>'><br>
+<input type="text" name="naam" value='<?php echo $account['naam'];?>'><br>
 	</td>
   </tr>
  </tbody>

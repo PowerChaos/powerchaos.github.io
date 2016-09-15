@@ -66,7 +66,7 @@ if (u())
   </div>
 </nav>
 	<!-- Dynamic SiteBar -->
-<nav class="navbar navbar-inverse navbar-fixed-left">
+<divdiv class="navbar navbar-inverse navbar-fixed-left">
 
 	<ul id="tree1">
 	<!-- HoofdCategory -->
@@ -94,7 +94,7 @@ if (u())
 		<li>XRP</li>
 	<!-- HoofdCategory -->	
 	</ul>			
-</nav>
+</div>
 	<!-- Dynamic SiteBar -->
 <?php
 }

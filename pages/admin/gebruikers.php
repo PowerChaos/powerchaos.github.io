@@ -9,12 +9,6 @@ $stmt->execute();
 $result = $stmt->fetchall(PDO::FETCH_ASSOC);
 ?>
 <script type="text/javascript" class="init">
-$(document).ready(function() {
- $('table.table').DataTable( {
-	aaSorting: []	
-    } );	
-} );
-
 function bewerk(val, dat) {
 	$.ajax({
 	type: "POST",
@@ -75,11 +69,11 @@ echo "<td class=active>";
 <div class="dropdown pull-right">
   <button class="btn btn-warning btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Bewerk</button>
   <ul class="dropdown-menu">
-  <li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[pn];?>' onclick='bewerk(this.id,"wachtwoord");'><i class='material-icons' title='wachtwoord' aria-hidden='true'>vpn_key</i> Wachtwoord<span class='sr-only'>Wachtwoord</span>
-    <li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[pn];?>' onclick='bewerk(this.id,"rechten");'><i class='material-icons' title='Rechten' aria-hidden='true'>group</i> Rechten<span class='sr-only'>Rechten</span>
-    <li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[pn];?>' onclick='bewerk(this.id,"hernoem");'><i class='material-icons' title='Naam' aria-hidden='true'>person</i> Naam<span class='sr-only'>Naam</span>
-	<li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[pn];?>' onclick='bewerk(this.id,"blokeer");'><i class='material-icons' title='Blokeer' aria-hidden='true'>lock</i> Blokeer<span class='sr-only'>Blokeer</span>
-	<li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[pn];?>' onclick='bewerk(this.id,"deblokeer");'><i class='material-icons' title='DeBlokeer' aria-hidden='true'>lock_open</i> DeBlokeer<span class='sr-only'>deBlokeer</span>
+  <li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[id];?>' onclick='bewerk(this.id,"wachtwoord");'><i class='material-icons' title='wachtwoord' aria-hidden='true'>vpn_key</i> Wachtwoord<span class='sr-only'>Wachtwoord</span>
+    <li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[id];?>' onclick='bewerk(this.id,"rechten");'><i class='material-icons' title='Rechten' aria-hidden='true'>group</i> Rechten<span class='sr-only'>Rechten</span>
+    <li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[id];?>' onclick='bewerk(this.id,"hernoem");'><i class='material-icons' title='Naam' aria-hidden='true'>person</i> Naam<span class='sr-only'>Naam</span>
+	<li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[id];?>' onclick='bewerk(this.id,"blokeer");'><i class='material-icons' title='Blokeer' aria-hidden='true'>lock</i> Blokeer<span class='sr-only'>Blokeer</span>
+	<li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[id];?>' onclick='bewerk(this.id,"deblokeer");'><i class='material-icons' title='DeBlokeer' aria-hidden='true'>lock_open</i> DeBlokeer<span class='sr-only'>deBlokeer</span>
 
 	</ul>
 </div>
