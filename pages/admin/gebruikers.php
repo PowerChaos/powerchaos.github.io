@@ -54,7 +54,7 @@ function bewerk(val, dat) {
 <?php
 foreach($result as $info) {
 echo "<tr><td class=warning >$info[id]</td>";
-echo "<td class=success>$info[name]</td>";
+echo "<td class=success>$info[naam]</td>";
 $groep = $info['rechten'];
 switch ($groep) {
         case "3":
@@ -73,8 +73,7 @@ echo "$groep";
 echo "<td class=active>";
 ?>
 <div class="dropdown pull-right">
-  <button class="btn btn-warning btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Bewerk
-  <i class='small material-icons' title='Bewerk' aria-hidden='true'>backspace</i><span class='sr-only'>Bewerk</span></button>
+  <button class="btn btn-warning btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Bewerk</button>
   <ul class="dropdown-menu">
   <li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[pn];?>' onclick='bewerk(this.id,"wachtwoord");'><i class='material-icons' title='wachtwoord' aria-hidden='true'>vpn_key</i> Wachtwoord<span class='sr-only'>Wachtwoord</span>
     <li><a href='#' data-toggle='modal' data-target='#modal' id='<?php echo $info[pn];?>' onclick='bewerk(this.id,"rechten");'><i class='material-icons' title='Rechten' aria-hidden='true'>group</i> Rechten<span class='sr-only'>Rechten</span>
