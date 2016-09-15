@@ -20,12 +20,12 @@ md5 = md5(user-pass-user);
 Aleen waneer ingelogt
  
 1. ##HoofdCategory
-.* #Sub Category
-..* Pagina -> weergave in midden
+..* #Sub Category
+...* Pagina -> weergave in midden
 1. ##HoofdCategory
-.* #Sub Category
-..* Pagina
-..* Pagina
+..* #Sub Category
+...* Pagina
+...* Pagina
 
 Zoekfunctie in header
 login/logout en admin menu in header
