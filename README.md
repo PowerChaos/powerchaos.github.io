@@ -12,20 +12,20 @@ wachtwoord : pass
 md5 = md5(user-pass-user);
 
 #RoadMap
-.volledig prive
-.Sidebar voor weergave folders
-.simpel admin
++ volledig prive
++ Sidebar voor weergave folders
++ simpel admin
 
 #BaseVieuw Sidebar
 Aleen waneer ingelogt
  
 1. HoofdCategory
 ..* Sub Category
-...* Pagina -> weergave in midden
+..* Pagina -> weergave in midden
 1. HoofdCategory
 ..* Sub Category
-...* Pagina
-...* Pagina
+..* Pagina
+..* Pagina
 
 Zoekfunctie in header
 login/logout en admin menu in header
