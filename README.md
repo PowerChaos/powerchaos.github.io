@@ -19,22 +19,23 @@ md5 = md5(user-pass-user);
 #BaseVieuw Sidebar
 Aleen waneer ingelogt
  
-1 HoofdCategory
- * Sub Category
+1 ##HoofdCategory
+ * ###Sub Category
   * Pagina -> weergave in midden
-1 HoofdCategory
- * Sub Category
+2 ##HoofdCategory
+ * ###Sub Category
   * Pagina
   * Pagina
 
-Zoekfunctie in header
-login/logout en admin menu in header
++ Zoekfunctie in header
++ login/logout
++ admin menu in header
 
-2 groepen , admin en geen admin
-WYSIWIG editor
-post editor
-aangemaakt
-Laatst gewijzigt
++ 2 groepen , admin en geen admin
++ WYSIWIG editor
++ post editor
++ aangemaakt
++ Laatst gewijzigt
 
 #Database opbouw
 
