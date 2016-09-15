@@ -4,12 +4,18 @@ Simple KnowledgeBase
 Dit is een KB Systeem gemaakt in PHP
 
 instalatie is gemakkelijk 
+
 execute de SQL script en je kan beginnen 
+
 maak een gebruiker aan in database , Wachtwoorden zijn MD5 
+
 voorbeeld wachtwoord generatie: 
+
 gebruiker : user 
+
 wachtwoord : pass 
-md5 = `md5(user-pass-user);` 
+
+md5 = ```php md5(user-pass-user);``` 
 
 #RoadMap
 + volledig prive
@@ -30,7 +36,9 @@ Aleen waneer ingelogt
  
 ##HoofdCategory
  * Sub Category
-  * Pagina -> weergave in midden 
+  * Pagina -> weergave in midden
+
+  
 ##HoofdCategory
  * Sub Category
   * Pagina
