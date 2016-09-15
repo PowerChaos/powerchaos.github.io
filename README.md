@@ -43,6 +43,11 @@ aangemaakt
 Laatst gewijzigt
 
 #Database opbouw
+
+| Gebruikers|
+| ------------- |:-------------:| -----:| -----:|
+| id | gebruiker | wachtwoord | groep |
+
 Gebruikers -> id - gebruiker - wachtwoord - groep
 hc -> id - naam
 shc -> id - hc - naam
