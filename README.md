@@ -28,13 +28,13 @@ md5 = `md5(user-pass-user);`
 #BaseVieuw Sidebar
 Aleen waneer ingelogt
  
-1 HoofdCategory
- * Sub Category
-  * Pagina -> weergave in midden  
-2 HoofdCategory
- * Sub Category
-  * Pagina
-  * Pagina
+1. HoofdCategory
+  * Sub Category
+   * Pagina -> weergave in midden
+2. HoofdCategory
+  * Sub Category
+   * Pagina
+   * Pagina
  
 
 
